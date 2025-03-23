@@ -3,35 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Case of MR. Clark</title>
+    <title>The Case of Mr. Clark</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
             text-align: center;
-            padding: 20px;
-            background-image: url('https://images.unsplash.com/photo-1577896851231-70ef18881754'); /* Example school background */
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
+            max-width: 800px;
+            width: 100%;
         }
         h1 {
             color: #333;
         }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            background: white;
-            padding: 20px;
+        .murf-embed {
+            margin-top: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(5px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>The Case of MR. Clark</h1>
-        <iframe class="murf-embed" width="560" height="102" src="https://murf.ai/embeds/index.html?embedId=m8ku9396" allowfullscreen title="Murf Embed Player" style="border: none;"></iframe>
+        <h1>The Case of Mr. Clark</h1>
+        <p>Welcome to the investigation of Mr. Clark. Please listen to the details below.</p>
+        
+        <!-- Image -->
+        <img src="download.jpg" alt="Mr. Clark">
+
+        <!-- Embed Code -->
+        <iframe class="murf-embed" width="560" height="102" src="https://murf.ai/embeds/index.html?embedId=m8kunurn" allowfullscreen title="Murf Embed Player" style="border: none;"></iframe>
         <script src="https://murf.ai/embeds/widget.js"></script>
     </div>
 </body>
